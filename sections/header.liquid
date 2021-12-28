@@ -1,0 +1,27 @@
+{{ 'header.css' | asset_url | stylesheet_tag }}
+
+<header class="header">
+  <div class="header-top">
+    <div class="header-messengers">
+      <a href="#"><img class="header-messengers__image" src="{{ 'header-instagram.png' | asset_img_url: 'master' }}" alt=""></a>
+      <a href="#"><img class="header-messengers__image" src="{{ 'header-facebook.png' | asset_img_url: 'master' }}" alt=""></a>
+      <a href="#"><img class="header-messengers__image" src="{{ 'header-twitter.png' | asset_img_url: 'master' }}" alt=""></a>
+    </div>
+    <div class="header-title">
+      <img src="{{ 'header-logo.png' | asset_img_url: 'master' }}" alt="">
+    </div>
+    <div class="header-menu">
+      <img class="header-menu__image" src="{{ 'search-header.png' | asset_img_url: 'master' }}" alt="">
+      <img class="header-menu__image" src="{{ 'single-neutral-Header.png' | asset_img_url: 'master' }}" alt="">
+      <img class="header-menu__image" src="{{ 'shopping-bag-check-HEADER.png' | asset_img_url: 'master' }}" alt="">
+    </div>
+  </div>
+
+  <div class="header-bottom">
+    <a class="header-bottom__link" href="#">Shop</a>
+    <a class="header-bottom__link" href="#">Bespoke</a>
+    <a class="header-bottom__link" href="#">About</a>
+    <a class="header-bottom__link" href="#">Storytellers</a>
+    <a class="header-bottom__link" href="#">Further reading</a>
+  </div>
+</header>

@@ -1,0 +1,60 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: block;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 22px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.header .header-top .header-messengers {
+  padding-top: 18px;
+}
+
+.header .header-top .header-messengers .header-messengers__image {
+  margin-right: 30px;
+}
+
+.header .header-top .header-menu {
+  margin-top: 18px;
+}
+
+.header .header-top .header-menu .header-menu__image {
+  margin-left: 44px;
+}
+
+.header .header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #e4e4e4;
+  margin-top: 23px;
+  padding-top: 23px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.header .header-bottom .header-bottom__link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #171618;
+  letter-spacing: 2px;
+  line-height: 16.44px;
+  text-decoration: none;
+  margin-right: 102px;
+}

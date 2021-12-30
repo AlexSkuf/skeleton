@@ -1,7 +1,7 @@
 {{ 'footer.css' | asset_url | stylesheet_tag }}
 
 <footer class="footer">
-  <img src="image/footer-logo.png.png" height="64px">
+  <img src="{{ 'footer-logo.png' | asset_img_url: 'master' }}" height="64px">
   <div class="footer__menu-column">
     <a class="menu-column__link" href="">About</a>
     <a class="menu-column__link" href="">FAQs</a>

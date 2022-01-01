@@ -24,6 +24,11 @@
         "type": "footer",
         "settings": {
         }
+      },
+      "home-section": {
+        "type": "home-section",
+        "settings": {
+        }
       }
     },
     "content_for_index": [

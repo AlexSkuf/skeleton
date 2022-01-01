@@ -12,7 +12,7 @@
       <button class="home-button">View collection</button>
     </div>
     <div class="slider-img">
-      <img src="{{ 'home-image.jpg' | asset_img_url: 'master' }}" alt="">
+      <img src="{{ section.settings.image }}" alt="">
     </div>
   </div>
 </section>
@@ -23,9 +23,9 @@
     "settings": [
     {
       "type": "image_picker",
-      "id": "image",
+      "id": "home_image",
       "label": "Home image"
     }
-   ]
+  ]
   }
 {% endschema %}

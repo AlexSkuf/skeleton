@@ -25,6 +25,7 @@
 }
 
 .slider-home .collection-1 .collection-column .home-subtitle {
+  max-width: 276px;
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 0.002em;

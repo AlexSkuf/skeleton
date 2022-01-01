@@ -4,10 +4,8 @@
   <div class="collection-1">
     <div class="collection-column">
       <p class="top-text">Collection 1</p>
-      <h1 class="home-title">As Above So Below</h1>
-      <p class="home-subtitle">
-        {{ section.settings.subtitle }}
-      </p>
+      <h1 class="home-title">{{ section.settings.subtitle }}</h1>
+      <p class="home-subtitle">{{ section.settings.subtitle }}</p>
       <button class="home-button">View collection</button>
     </div>
     <div class="slider-img">
@@ -21,6 +19,11 @@
     "name": "image",
     "class": "home-image",
     "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Home title"
+      },
       {
         "type": "text",
         "id": "subtitle",

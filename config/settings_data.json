@@ -28,6 +28,7 @@
       "home-section": {
         "type": "home-section",
         "settings": {
+          "home_image": "shopify:\/\/shop_images\/home-image.jpg"
         }
       }
     },

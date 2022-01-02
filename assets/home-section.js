@@ -1,1 +1,1 @@
-new Swipper('collection-column');
+new Swipper('swiper-slide');

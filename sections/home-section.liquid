@@ -2,12 +2,18 @@
 
 <section class="slider-home">
   <div class="collection-1">
+
+  <div class="collection-column-slider__container">
+    <div>
     <div class="collection-column">
       <p class="top-text">Collection 1</p>
       <h1 class="home-title">{{ section.settings.title }}</h1>
       <p class="home-subtitle">{{ section.settings.subtitle }}</p>
       <button class="home-button">View collection</button>
     </div>
+  </div>
+</div>
+
     <div class="slider-img">
       <img src="{{ section.settings.home_image | img_url:'master' }}" alt="">
     </div>

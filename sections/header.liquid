@@ -18,10 +18,48 @@
   </div>
 
   <div class="header-bottom">
-    <a class="header-bottom__link" href="#">Shop</a>
-    <a class="header-bottom__link" href="#">Bespoke</a>
-    <a class="header-bottom__link" href="#">About</a>
-    <a class="header-bottom__link" href="#">Storytellers</a>
-    <a class="header-bottom__link" href="#">Further reading</a>
+    <a class="header-bottom__link" href="#">{{ section.settings.navigation1 }}</a>
+    <a class="header-bottom__link" href="#">{{ section.settings.navigation2 }}</a>
+    <a class="header-bottom__link" href="#">{{ section.settings.navigation3 }}</a>
+    <a class="header-bottom__link" href="#">{{ section.settings.navigation4 }}</a>
+    <a class="header-bottom__link" href="#">{
+      "type": "text",
+      "id": "navigation1",
+      "label": "Navigation-1"
+    },</a>
   </div>
 </header>
+
+{% schema %}
+{
+  "name": "navigations",
+  "class": "navigation",
+  "settings": [
+    {
+      "type": "text",
+      "id": "navigation1",
+      "label": "Navigation-1"
+    },
+    {
+      "type": "text",
+      "id": "navigation2",
+      "label": "Navigation-2"
+    },
+    {
+      "type": "text",
+      "id": "navigation3",
+      "label": "Navigation-3"
+    },
+    {
+      "type": "text",
+      "id": "navigation4",
+      "label": "Navigation-4"
+    },
+    {
+      "type": "text",
+      "id": "navigation5",
+      "label": "Navigation-5"
+    }
+  ]
+}
+{% endschema %}

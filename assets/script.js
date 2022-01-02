@@ -1,0 +1,1 @@
+new Swipper('collection-column');

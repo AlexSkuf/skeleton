@@ -53,6 +53,7 @@
 }
 
 .slider-home .collection-1 .slider-img {
+  width: 100%;
   margin-left: auto;
   margin-right: 0;
 }

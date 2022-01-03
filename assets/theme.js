@@ -1,1 +1,1 @@
-new Swipper('.image-slider__slide');
+new Swipper('.swiper-container');

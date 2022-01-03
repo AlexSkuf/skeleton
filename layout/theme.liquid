@@ -33,6 +33,9 @@
     {%- unless settings.type_header_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
+
+    <script src="{{ 'theme.js' | asset_url }} " defer="defer"></script>
+
   </head>
 
   <style>

@@ -33,6 +33,11 @@
   color: #656863;
 }
 
+.swiper {
+  width: 1014px;
+  height: 620px;
+}
+
 .slider-home .collection-1 .collection-column .home-button {
   font-family: "Raleway", sans-serif;
   font-weight: 600;

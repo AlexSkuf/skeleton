@@ -1,1 +1,1 @@
-new Swipper('.swiper-container');
+const swiper = new Swiper('.swiper-slide');

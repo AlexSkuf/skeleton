@@ -12,12 +12,23 @@
 
 
     <div class="slider-img">
-      <img src="{{ section.settings.home_image | img_url:'master' }}" alt="">
+      <img src="home-image.png" alt="">
     </div>
   </div>
 </section>
 
-{% schema %}
+
+
+
+{% comment %} <h1 class="home-title">{{ section.settings.title }}</h1>
+      <p class="home-subtitle">{{ section.settings.subtitle }}</p>
+
+      <div class="slider-img">
+        <img src="{{ section.settings.home_image | img_url:'master' }}" alt="">
+      </div> {% endcomment %}
+
+
+{% comment %} {% schema %}
   {
     "name": "image",
     "class": "home-image",
@@ -39,4 +50,4 @@
     }
   ]
   }
-{% endschema %}
+{% endschema %} {% endcomment %}

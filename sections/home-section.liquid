@@ -3,33 +3,17 @@
 <section class="slider-home">
   <div class="collection-1">
 
-  {% comment %} <div class="collection-column swipper__container"> {% endcomment %}
-    {% comment %} <div class="collection-column-wrapper swiper-wrapper"> {% endcomment %}
-      {% comment %} <div class="collection-column-slider swiper-slider"> {% endcomment %}
     <div class="collection-column">
       <p class="top-text">Collection 1</p>
       <h1 class="home-title">{{ section.settings.title }}</h1>
       <p class="home-subtitle">{{ section.settings.subtitle }}</p>
       <button class="home-button">View collection</button>
     </div>
-  {% comment %} </div>
-  </div>
-</div>
-  {% endcomment %}
 
-<div class="image-slider swiper-container">
-  <div class="image-swiper__wrapper swiper-wrapper">
-    <div class="image-slider__slide swiper-slide">
+
     <div class="slider-img">
       <img src="{{ section.settings.home_image | img_url:'master' }}" alt="">
     </div>
-  </div>
-  <div class="image-slider__slide swiper-slide">
-    <div class="slider-img">
-      <img src="{{ section.settings.image1 | img_url:'master' }}" alt="">
-    </div>
-  </div>
-  </div>
   </div>
 </section>
 

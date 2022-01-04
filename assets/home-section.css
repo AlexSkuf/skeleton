@@ -9,6 +9,7 @@
 .slider-home .collection-1 .collection-column {
   position: absolute;
   margin-left: 15%;
+  z-index: 2;
 }
 
 .slider-home .collection-1 .collection-column .top-text {

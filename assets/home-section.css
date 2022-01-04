@@ -50,6 +50,8 @@
 .slider-home .collection-1 .swiper {
   width: 1014px;
   height: 620px;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .slider-home .collection-1 .slider-img {

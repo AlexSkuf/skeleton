@@ -1,4 +1,4 @@
-const swiper = new Swiper('.slider-image');
+let myImageSlider = new Swiper('.slider-image');
 
 
-const swiper = new Swiper('.slider-text');
+let myTextSlider = new Swiper('.slider-text');

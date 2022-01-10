@@ -7,11 +7,13 @@
 .text-block-left {
   width: 295px;
   height: 67px;
+  background-color: #fff;
 }
 
 .text-block-right {
   width: 570px;
   height: 67px;
+  background-color: #fff;
 }
 
 .section-right {

@@ -10,12 +10,12 @@
   background-color: #fff;
 }
 
-.text-block-right {
+.section-right {
+  margin-left: 62px;
+}
+
+.section-right .text-block-right {
   width: 570px;
   height: 67px;
   background-color: #fff;
-}
-
-.section-right {
-  margin-left: 62px;
 }

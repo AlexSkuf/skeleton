@@ -13,6 +13,7 @@
 .text-left {
   position: absolute;
   margin-top: -70px;
+  padding-top: 21px;
   width: 295px;
   height: 67px;
   background-color: #fff;

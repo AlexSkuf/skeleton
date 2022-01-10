@@ -1,5 +1,6 @@
 {{ 'header.css' | asset_url | stylesheet_tag }}
 
+
 <header class="header">
   <div class="header-top">
     <div class="header-messengers">
@@ -22,13 +23,10 @@
     <a class="header-bottom__link" href="#">{{ section.settings.navigation2 }}</a>
     <a class="header-bottom__link" href="#">{{ section.settings.navigation3 }}</a>
     <a class="header-bottom__link" href="#">{{ section.settings.navigation4 }}</a>
-    <a class="header-bottom__link" href="#">{
-      "type": "text",
-      "id": "navigation1",
-      "label": "Navigation-1"
-    },</a>
+    <a class="header-bottom__link" href="#">{{ section.settings.navigation5 }}</a>
   </div>
 </header>
+
 
 {% schema %}
 {

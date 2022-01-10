@@ -1,0 +1,88 @@
+{{ 'home-section.css' | asset_url | stylesheet_tag }}
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<section class="slider-home">
+  <div class="collection-1">
+
+
+    <div class="swiper slider-text">
+      <div class="swiper-wrapper">
+
+  <div class="swiper-slide">
+    <div class="collection-column">
+      <p class="top-text">Collection 1</p>
+      <h1 class="home-title">As Above So Below</h1>
+      <p class="home-subtitle">Find your star sign within Jessica’s collaboration collection with, artist, Lousie Androlia.</p>
+      <button class="home-button">View collection</button>
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="collection-column">
+      <p class="top-text">Collection 1</p>
+      <h1 class="home-title">As Above So Shmelow</h1>
+      <p class="home-subtitle">Find your star sign within Jessica’s de Lotz collaboration collection with, artist, Lousie Androlia.</p>
+      <button class="home-button">View collection</button>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="swiper slider-image">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+    <div class="slider-img">
+      <img src="{{ 'home-image.jpg' | asset_img_url: 'master' }}" alt="">
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="slider-img">
+      <img src="{{ 'slider-img2.jpg' | asset_img_url: 'master' }}" alt="">
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+</section>
+
+
+
+
+{% comment %} <h1 class="home-title">{{ section.settings.title }}</h1>
+      <p class="home-subtitle">{{ section.settings.subtitle }}</p>
+
+      <div class="slider-img">
+        <img src="{{ section.settings.home_image | img_url:'master' }}" alt="">
+      </div> {% endcomment %}
+
+
+{% comment %} {% schema %}
+  {
+    "name": "image",
+    "class": "home-image",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Home title"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Home subtitle"
+      },
+    {
+      "type": "image_picker",
+      "id": "home_image",
+      "label": "Home image"
+    }
+  ]
+  }
+{% endschema %} {% endcomment %}

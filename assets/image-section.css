@@ -12,6 +12,7 @@
 
 .text-left {
   position: absolute;
+  margin-top: -70px;
   width: 295px;
   height: 67px;
   background-color: #fff;

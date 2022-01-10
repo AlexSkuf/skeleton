@@ -11,6 +11,7 @@
 }
 
 .text-left {
+  position: absolute;
   width: 295px;
   height: 67px;
   background-color: #fff;

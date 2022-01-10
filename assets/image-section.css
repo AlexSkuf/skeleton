@@ -1,3 +1,7 @@
 .image-section {
   display: flex;
 }
+
+.section-right {
+  margin-left: 62px;
+}

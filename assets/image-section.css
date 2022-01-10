@@ -4,6 +4,11 @@
   padding-top: 90px;
 }
 
+.text-block {
+  position: absolute;
+  background-color: #fff;
+}
+
 .text-block-left {
   width: 295px;
   height: 67px;
@@ -12,11 +17,4 @@
 
 .section-right {
   margin-left: 62px;
-}
-
-.section-right .text-block-right {
-  color: #fff;
-  width: 570px;
-  height: 67px;
-  background-color: #fff;
 }

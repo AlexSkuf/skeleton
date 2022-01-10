@@ -16,6 +16,11 @@
   width: 295px;
   height: 67px;
   background-color: #fff;
+  font-family: Playfair Display;
+  font-size: 34px;
+  line-height: 45px;
+  letter-spacing: 0.6px;
+  color: #262b25;
 }
 
 .section-right {

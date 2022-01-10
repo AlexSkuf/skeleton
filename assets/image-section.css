@@ -3,19 +3,3 @@
   justify-content: center;
   padding-top: 90px;
 }
-
-.text-block {
-  position: absolute;
-  background-color: #fff;
-  margin-top: -21px;
-}
-
-.text-block-left {
-  width: 295px;
-  height: 67px;
-  background-color: #fff;
-}
-
-.section-right {
-  margin-left: 62px;
-}

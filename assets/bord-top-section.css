@@ -2,6 +2,7 @@
 
 .section-bord-top {
   display: flex;
+  padding-top: 120px;
   background: #F7F6F2;
 }
 
@@ -12,6 +13,8 @@
   line-height: 117.4%;
   text-align: right;
   color: #262B25;
+  margin-left: -170px;
+    margin-bottom: 30px;
 }
 
 .block-top-text {

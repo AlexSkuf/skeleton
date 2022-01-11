@@ -21,3 +21,12 @@
   letter-spacing: 0.002em;
   color: #656863;
 }
+
+.block-top-link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  text-align: right;
+  letter-spacing: 1.6px;
+  color: #272F1A;
+}

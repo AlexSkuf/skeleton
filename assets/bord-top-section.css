@@ -12,3 +12,12 @@
   text-align: right;
   color: #262B25;
 }
+
+.block-top-text {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.002em;
+  color: #656863;
+}

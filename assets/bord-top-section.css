@@ -29,7 +29,7 @@
   text-align: right; 
 }
 
-.text {
+.block-top-text .text {
   margin-left: auto;
   padding-left: 10px;
 }

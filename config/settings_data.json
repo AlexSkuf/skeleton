@@ -13,8 +13,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "navigation1": "shop",
-          "navigation2": "Bespoke",
+          "navigation1": "shosdgsfgsfgsfdsdf",
+          "navigation2": "Besposgfgfsdke",
           "navigation3": "about",
           "navigation4": "Storytellers",
           "navigation5": "FURTHER READING"
@@ -28,9 +28,21 @@
       "home-section": {
         "type": "home-section",
         "settings": {
-          "title": "As Above So Below",
-          "subtitle": "Find your star sign within Jessica’s collaboration collection with, artist, Lousie Androlia.",
-          "home_image": "shopify:\/\/shop_images\/home-image.jpg"
+        }
+      },
+      "image-section": {
+        "type": "image-section",
+        "settings": {
+        }
+      },
+      "bord-top-section": {
+        "type": "bord-top-section",
+        "settings": {
+        }
+      },
+      "bord-bottom-section": {
+        "type": "bord-bottom-section",
+        "settings": {
         }
       }
     },

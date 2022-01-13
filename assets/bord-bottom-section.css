@@ -6,6 +6,10 @@
   background: #fff;
 }
 
+.block-bottom {
+  z-index: 2;
+}
+
 .block-bottom-title {
   font-family: "Playfair Display", serif;
   font-weight: normal;
@@ -30,7 +34,6 @@
 
 .block-bottom-text .text {
   margin-right: auto;
-  padding-right: 5px;
 }
 
 .block-bottom-link {

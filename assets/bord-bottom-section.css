@@ -7,25 +7,25 @@
 }
 
 .block-bottom-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: normal;
   font-size: 53px;
   line-height: 117.4%;
   text-align: left;
-  color: #262B25;
-  margin-left: 170px;
-    margin-bottom: 30px;
+  color: #262b25;
+  margin-right: -110px;
+  margin-bottom: 30px;
 }
 
 .block-bottom-text {
   width: 340px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.002em;
   color: #656863;
-  text-align: left; 
+  text-align: left;
 }
 
 .block-bottom-text .text {
@@ -39,7 +39,7 @@
   font-size: 14px;
   line-height: 12px;
   letter-spacing: 1.6px;
-  color: #272F1A;
+  color: #272f1a;
   text-decoration: underline;
   cursor: pointer;
   margin-left: 212px;

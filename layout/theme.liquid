@@ -2,7 +2,7 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
@@ -46,6 +46,9 @@
   <body>
     {% section 'header' %}
     {% section 'home-section' %}
+    {% section 'image-section' %}
+    {% section 'bord-top-section' %}
+    {% section 'bord-bottom-section' %}
     {% section 'footer' %}
     <main>
       {{ content_for_layout }}

@@ -1,0 +1,50 @@
+.section-bord-bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #fff;
+}
+
+.block-bottom {
+  z-index: 2;
+}
+
+.block-bottom-title {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 117.4%;
+  text-align: left;
+  color: #262b25;
+  margin-right: -110px;
+  margin-bottom: 30px;
+}
+
+.block-bottom-text {
+  width: 340px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.002em;
+  color: #656863;
+  text-align: left;
+}
+
+.block-bottom-text .text {
+  margin-right: auto;
+}
+
+.block-bottom-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 1.6px;
+  color: #272f1a;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 30px;
+  display: block;
+}

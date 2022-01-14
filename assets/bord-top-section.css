@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .section-bord-top {
   display: flex;
   justify-content: center;
@@ -46,3 +47,55 @@
   margin-top: 30px;
   display: block;
 }
+=======
+
+
+.section-bord-top {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #F7F6F2;
+}
+
+.block-top-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 117.4%;
+  text-align: right;
+  color: #262B25;
+  margin-left: -170px;
+    margin-bottom: 30px;
+}
+
+.block-top-text {
+  width: 340px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.002em;
+  color: #656863;
+  text-align: right; 
+}
+
+.block-top-text .text {
+  margin-left: auto;
+  padding-left: 5px;
+}
+
+.block-top-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 1.6px;
+  color: #272F1A;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 212px;
+  margin-top: 30px;
+  display: block;
+}
+>>>>>>> 3792e152958cc80448b76b99c0169f6a9e434d10

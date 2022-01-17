@@ -1,5 +1,6 @@
 .title-for-section {
   background: #f7f6f2;
+  padding-top: 100px;
 }
 
 .title {
@@ -9,4 +10,7 @@
   line-height: 61px;
   text-align: center;
   color: #262b25;
+}
+
+.products-sections {
 }

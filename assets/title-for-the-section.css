@@ -32,6 +32,8 @@
   color: #262b25;
   background: #f7f6f2;
   height: 53px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .product-section-text1 {

@@ -16,3 +16,7 @@
   display: flex;
   justify-content: center;
 }
+
+.product-sections-img {
+  margin-left: 30px;
+}

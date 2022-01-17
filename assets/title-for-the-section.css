@@ -13,4 +13,6 @@
 }
 
 .products-sections {
+  display: flex;
+  justify-content: center;
 }

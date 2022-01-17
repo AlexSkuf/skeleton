@@ -24,6 +24,11 @@
 
 .product-section-text {
   margin-left: 30px;
+  font-family: Playfair Display;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 0.6px;
+  color: #262b25;
   background: #f7f6f2;
 }
 

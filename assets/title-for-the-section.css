@@ -45,6 +45,8 @@
 }
 
 .product-section-text3 {
+  position: absolute;
+  margin-top: 3px;
   width: 374px;
   margin-left: 0;
 }

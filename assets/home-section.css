@@ -48,7 +48,14 @@
   border: none;
 }
 
-.slider-home .collection-1 .swiper {
+.slider-home .collection-1 .swiper-text {
+  width: 424px;
+  height: 620px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.slider-home .collection-1 .swiper-image {
   width: 1014px;
   height: 620px;
   margin-left: auto;

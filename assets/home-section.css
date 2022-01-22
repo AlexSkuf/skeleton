@@ -1,3 +1,7 @@
+.slider-home {
+  max-width: 1500px;
+}
+
 .slider-home .collection-1 {
   position: relative;
   display: -webkit-box;

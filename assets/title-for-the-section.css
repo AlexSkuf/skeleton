@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f4370f590330502a08eea2e5a49ede5b0f7d4638
 .title-for-section {
   background: #f7f6f2;
   padding-top: 100px;
@@ -53,6 +56,63 @@
   width: 374px;
   margin-left: 0;
 }
+<<<<<<< HEAD
+
+.title-for-section {
+  background: #f7f6f2;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.title {
+  font-family: Playfair Display;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 61px;
+  text-align: center;
+  color: #262b25;
+}
+
+.products-sections {
+  display: flex;
+  justify-content: center;
+}
+
+.product-blocks {
+  background: #fff;
+  margin-left: 30px;
+}
+
+.product-section-text {
+  margin-left: 30px;
+  font-family: Playfair Display;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 0.6px;
+  color: #262b25;
+  background: #f7f6f2;
+  height: 53px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.product-section-text1 {
+  width: 116px;
+  margin-left: 0;
+}
+
+.product-section-text2 {
+  width: 163px;
+  margin-left: 0;
+}
+
+.product-section-text3 {
+  position: absolute;
+  margin-top: 3px;
+  width: 374px;
+  margin-left: 0;
+}
+=======
 =======
 .title-for-section {
   background: #f7f6f2;
@@ -109,3 +169,4 @@
   margin-left: 0;
 }
 >>>>>>> c483e3404117287bb12e4f4d91dce23d03946e24
+>>>>>>> f4370f590330502a08eea2e5a49ede5b0f7d4638

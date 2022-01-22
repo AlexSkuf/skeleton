@@ -13,8 +13,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "navigation1": "shosdgsfgsfgsfdsdf",
-          "navigation2": "Besposgfgfsdke",
+          "navigation1": "SHOP",
+          "navigation2": "Bespoke",
           "navigation3": "about",
           "navigation4": "Storytellers",
           "navigation5": "FURTHER READING"
@@ -42,6 +42,11 @@
       },
       "bord-bottom-section": {
         "type": "bord-bottom-section",
+        "settings": {
+        }
+      },
+      "title-for-the-section": {
+        "type": "title-for-the-section",
         "settings": {
         }
       }

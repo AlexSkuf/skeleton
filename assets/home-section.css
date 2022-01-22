@@ -1,3 +1,9 @@
+.slider-home {
+  max-width: 1560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .slider-home .collection-1 {
   position: relative;
   display: -webkit-box;
@@ -48,7 +54,14 @@
   border: none;
 }
 
-.slider-home .collection-1 .swiper {
+.slider-home .collection-1 .slider-text {
+  width: 424px;
+  height: 620px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.slider-home .collection-1 .slider-image {
   width: 1014px;
   height: 620px;
   margin-left: auto;

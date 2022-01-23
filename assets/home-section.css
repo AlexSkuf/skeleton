@@ -54,21 +54,13 @@
   border: none;
 }
 
-/*  */
 .slider-home .collection-1 .slider-text {
-  width: 924px;
-  position: absolute;
-  z-index: 10;
+  width: 424px;
   height: 620px;
   margin-right: auto;
   margin-left: 0;
 }
 
-.slider-wrapper {
-	width: 424px;
-}
-  
-/*  */
 .slider-home .collection-1 .slider-image {
   width: 1014px;
   height: 620px;

@@ -63,6 +63,11 @@
   margin-left: 0;
 }
 
+.slider-wrapper {
+	width: 424px;
+}
+  
+
 .slider-home .collection-1 .slider-image {
   width: 1014px;
   height: 620px;

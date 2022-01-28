@@ -28,6 +28,8 @@
       "home-section": {
         "type": "home-section",
         "settings": {
+          "image_home1": "shopify:\/\/shop_images\/home-image_e6c59c99-15a1-4df1-9e2e-0f7c6e98f509.jpg",
+          "image_home2": "shopify:\/\/shop_images\/bord-bottom-img.jpg"
         }
       },
       "image-section": {
@@ -38,11 +40,17 @@
       "bord-top-section": {
         "type": "bord-top-section",
         "settings": {
+          "titleTop": "Every piece tells a story",
+          "textTop": "Find your star sign within Jessica’s collaboration collection with, artist, Lousie Androlia. Jessica de Lotz Jewellery is lovingly handmade in her London studio, within her Kentis.",
+          "image_bottom": "shopify:\/\/shop_images\/bord-top-img.jpg"
         }
       },
       "bord-bottom-section": {
         "type": "bord-bottom-section",
         "settings": {
+          "titleBottom": "Every piece tells a story",
+          "textBottom": "Find your star sign within Jessica’s collaboration collection with, artist, Lousie Androlia. Jessica de Lotz Jewellery is lovingly handmade in her London studio, within her Kentis.",
+          "image_top": "shopify:\/\/shop_images\/bord-bottom-img.jpg"
         }
       },
       "title-for-the-section": {

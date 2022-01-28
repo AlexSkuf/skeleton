@@ -13,6 +13,7 @@
 }
 
 .block-wrapper {
+  position: relative;
   width: 424px;
 }
 
@@ -59,6 +60,7 @@
 }
 
 .slider-home .collection-1 .slider-text {
+  position: absolute;
   width: 995px;
   height: 620px;
   margin-right: auto;

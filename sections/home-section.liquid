@@ -45,7 +45,7 @@
 
   <div class="swiper-slide">
     <div class="slider-img">
-      <img src="{{ 'slider-img2.jpg' | asset_img_url: 'master' }}" alt="">
+      <img src="{{ section.settings.image_home | image_url }}" alt="">
     </div>
   </div>
 
@@ -54,3 +54,17 @@
 </div>
 
 </section>
+
+{% schema %}
+{
+  "name": "home-section",
+  "class": "home-section",
+  "settings": [
+  {
+    "type": "image_picker",
+    "id": "image_home",
+    "label": "Image"
+  }
+  ]
+}
+{% endschema %}

@@ -38,6 +38,7 @@
       "bord-top-section": {
         "type": "bord-top-section",
         "settings": {
+          "titleTop": "Every piece tells a story"
         }
       },
       "bord-bottom-section": {

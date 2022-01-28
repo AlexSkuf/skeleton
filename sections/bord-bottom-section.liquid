@@ -8,7 +8,7 @@
     </div>
     <a class="block-bottom-link">HOW IT WORKS</a>
   </div>
-  <img src="	{{ section.settings.image_picker }}" alt="">
+  <img src="	{{ section.settings.image_top | image_picker }}" alt="">
 </section>
 
 {% schema %}
@@ -28,7 +28,7 @@
   },
   {
     "type": "image_picker",
-    "id": "imageTop",
+    "id": "image_top",
     "label": "Image"
   }
   ]

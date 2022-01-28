@@ -28,7 +28,8 @@
       "home-section": {
         "type": "home-section",
         "settings": {
-          "image_home": "shopify:\/\/shop_images\/bord-bottom-img.jpg"
+          "image_home1": "shopify:\/\/shop_images\/home-image_e6c59c99-15a1-4df1-9e2e-0f7c6e98f509.jpg",
+          "image_home2": "shopify:\/\/shop_images\/bord-bottom-img.jpg"
         }
       },
       "image-section": {

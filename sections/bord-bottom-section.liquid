@@ -2,12 +2,30 @@
 
 <section class="section-bord-bottom">
   <div class="block-bottom">
-    <h1 class="block-bottom-title">Create your own story</h1>
+    <h1 class="block-bottom-title">{{ section.settings.titleTop }}</h1>
     <div class="block-bottom-text">
-    <p class="text">Find your star sign within Jessica’s collaboration collection with, artist, Lousie Androlia. 
-    Jessica de Lotz Jewellery is lovingly handmade in her London studio, within her Kentish Town shop.</p>
+    <p class="text">{{ section.settings.textTop }}</p>
     </div>
     <a class="block-bottom-link">HOW IT WORKS</a>
   </div>
   <img src="{{ 'bord-bottom-img.jpg' | asset_img_url: 'master' }}" alt="">
 </section>
+
+{% schema %}
+{
+  "name": "title-bottom",
+  "class": "title-sect-bottom",
+  "settings": [
+  {
+    "type": "text",
+    "id": "titleBottom",
+    "label": "title"
+  },
+  {
+    "type": "text",
+    "id": "textBottom",
+    "label": "text"
+  }
+  ]
+}
+{% endschema %}

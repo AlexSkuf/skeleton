@@ -17,6 +17,10 @@
   width: 424px;
 }
 
+.swiper {
+  position: absolute;
+}
+
 .slider-home .collection-1 .collection-column {
   position: absolute;
   margin-left: 15%;

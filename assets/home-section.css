@@ -63,6 +63,7 @@
   height: 620px;
   margin-right: auto;
   margin-left: 0;
+  z-index: 7;
 }
 
 .slider-home .collection-1 .slider-image {

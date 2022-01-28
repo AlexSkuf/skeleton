@@ -61,7 +61,7 @@
 }
 
 .slider-home .collection-1 .slider-text {
-  position: absolute;
+  /* position: absolute; */
   width: 995px;
   height: 620px;
   margin-right: auto;

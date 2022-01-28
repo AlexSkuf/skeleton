@@ -8,7 +8,7 @@
     </div>
     <a class="block-bottom-link">HOW IT WORKS</a>
   </div>
-  <img src="{{ 'bord-bottom-img.jpg' | asset_img_url: 'master' }}" alt="">
+  <img src="	{{ section.settings.image | image_url: 'master' | image_tag }}" alt="">
 </section>
 
 {% schema %}
